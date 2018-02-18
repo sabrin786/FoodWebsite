@@ -12,9 +12,19 @@ box-shadow: 0px 3px 39px -8px rgba(0,0,0,0.75);
 
 /*navbar*/
 
-.custom-navbar ul li{
+.custom-navbar .navbar-brand {
+	margin-bottom: 20px;
+}
+
+@media(min-width: 992px) {
+	.custom-navbar .navbar-brand {
+		margin-bottom: 0;
+	}
+}
+
+.custom-navbar .custom-nav-links li{
 	margin-right: 10px;
-	margin-left: 10px;
+	margin-left: 0;
 }
 .custom-navbar ul li a{
 	color: #fff;
@@ -31,11 +41,39 @@ box-shadow: 0px 3px 39px -8px rgba(0,0,0,0.75);
     color: #fff;
     vertical-align: middle;
 }
-.social-icon{
+
+.social-icon {
+	margin-top: 20px;
+}
+
+@media(min-width: 992px) {
+	.social-icon {
+		margin-top: 0;
+	}
+}
+
+.social-icon ul {
 	border-style: solid;
 	border-color: #d6d0d063;
 	border-width: 1px;
-	padding: 5px 10px 5px 10px;
+	margin: 0;
+	padding: 0;
+}
+
+.social-icon li {
+	display: inline-block;
+	list-style: none;
+}
+
+.social-icon li a {
+	width: 40px;
+	padding: 10px 0;
+	display: inline-block;
+	text-align: center;
+}
+
+.social-icon li a:hover {
+	background: #00000059;
 }
 
 /*home content*/
@@ -89,7 +127,7 @@ box-shadow: 0px 3px 39px -8px rgba(0,0,0,0.75);
 	display: inline;
 }
 .sec1-right-img{
-	width: 550px;
+	width: 100%;
 	border-style: solid;
 	border-color: #fff;
 	border-width: 15px;
@@ -118,4 +156,55 @@ box-shadow: 0px 3px 39px -8px rgba(0,0,0,0.75);
 .sec1 h5{
 	border-top: 1px solid gray;
 	border-bottom: 1px solid gray;
+}
+
+
+/*section-2*/
+
+.sec2{
+	background-image: url("image/sec2.jpg");
+	background-position: center;
+}
+.sec2-description {
+	background: url('image/sec2.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 130px;
+}
+.sec2-left-img{
+	width: 100%;
+}
+.sec2-carousel {
+	background-color: #dcdcdc;
+}
+.sec2-carousel .border {
+	border-radius: 100%;
+	background-color: #fff;
+	padding: 5px;
+	display: inline-block;
+}
+.sec2-carousel .img-slider .sec2-carousel-img {
+	height: 80px;
+	width: 80px;
+	border-radius: 100%;
+	display: inline-block;
+}
+.sec2-icon li{
+	list-style: none;
+	display: inline-block;
+	color: red;
+}
+.sec2-png{
+	width: 100%;
+	background-position: center;
+}
+.sec2 h3{
+	font-size: 20px;
+}
+.sec2 h4{
+	font-size: 15px;
+	color: red;
+}
+.sec2 p{
+	font-size: 13px;
 }
