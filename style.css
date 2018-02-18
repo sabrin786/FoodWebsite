@@ -170,11 +170,15 @@ box-shadow: 0px 3px 39px -8px rgba(0,0,0,0.75);
 	-moz-box-shadow: 2px 17px 66px 8px rgba(0,0,0,0.75);
 	box-shadow: 2px 17px 66px 8px rgba(0,0,0,0.75);
 }
+.sec2-right {
+	background: #fff;
+}
 .sec2-description {
 	background: url('image/sec2.png');
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 130px;
+    height: 190px;
 }
 .sec2-left-img {
 	background: url('image/sec2a.jpg');
@@ -182,6 +186,7 @@ box-shadow: 0px 3px 39px -8px rgba(0,0,0,0.75);
 }
 .sec2-carousel {
 	background-color: #dcdcdc;
+	padding: 10px 0;
 }
 .sec2-carousel {
 	overflow: visible;
