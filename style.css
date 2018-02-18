@@ -1,0 +1,121 @@
+.home{
+	background-image: url("image/top-bg.jpg");
+	 background-position: center;
+	 background-repeat: no-repeat;
+	-webkit-box-shadow: 0px 3px 39px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 39px -8px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 39px -8px rgba(0,0,0,0.75);
+}
+.home-overlay{
+	background-color:#0000004f; 
+}
+
+/*navbar*/
+
+.custom-navbar ul li{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.custom-navbar ul li a{
+	color: #fff;
+}
+.custom-navbar ul li a:hover{
+	color: blue;
+}
+.custom-navbar{
+	background-color: #31303078;
+	padding: 20px;
+}
+.nav-divider{
+	font-size: 6px;
+    color: #fff;
+    vertical-align: middle;
+}
+.social-icon{
+	border-style: solid;
+	border-color: #d6d0d063;
+	border-width: 1px;
+	padding: 5px 10px 5px 10px;
+}
+
+/*home content*/
+
+.home-content{
+	color: #fff;
+	padding-top: 200px;
+	padding-bottom: 100px;
+}
+.home-content h1{
+	font-size: 90px;
+	font-family: 'Alegreya', serif;
+}
+.home-content h5{
+	font-size: 30px;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+.home-button{
+	border-style: solid;
+	background-color: #31303078;
+	border-width: 1.2px;
+	border-color: #f9e0b25e;
+	display: inline-block;
+	padding:15px 70px 15px 70px;
+	margin-top: 100px;
+}
+.home-button a{
+	font-size: 20px;
+	color: #fff;
+}
+.home-button a:hover{
+	text-decoration: none;
+	color: skyblue;
+}
+
+
+/*section1*/
+
+.sec1-left-img{
+	height: 120px;
+	width: 120px;
+	border-radius: 100px;
+}
+.sec1-left-quote p{
+	font-size: 20px;
+	color: red;
+	display: inline-block;
+}
+.sec1-left-quote i{
+	color: gray;
+	display: inline;
+}
+.sec1-right-img{
+	width: 550px;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 15px;
+}
+.sec1 h3{
+	font-family: 'Alegreya', serif;
+	font-size: 60px;
+	letter-spacing: 3px;
+}
+.sec1 h4{
+	font-size: 16px;
+	color: red;
+}
+.sec1 p{
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 20px;
+	margin-top: 30px;
+	letter-spacing: 1px;
+}
+.sec1 h6{
+	font-size: 30px;
+	font-family: 'Alegreya', serif;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.sec1 h5{
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
