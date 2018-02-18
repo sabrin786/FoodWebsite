@@ -165,23 +165,49 @@ box-shadow: 0px 3px 39px -8px rgba(0,0,0,0.75);
 	background-image: url("image/sec2.jpg");
 	background-position: center;
 }
+.sec2-shadow {
+	-webkit-box-shadow: 2px 17px 66px 8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 17px 66px 8px rgba(0,0,0,0.75);
+	box-shadow: 2px 17px 66px 8px rgba(0,0,0,0.75);
+}
 .sec2-description {
 	background: url('image/sec2.png');
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 130px;
 }
-.sec2-left-img{
-	width: 100%;
+.sec2-left-img {
+	background: url('image/sec2a.jpg');
+	background-size: cover;
 }
 .sec2-carousel {
 	background-color: #dcdcdc;
 }
+.sec2-carousel {
+	overflow: visible;
+	position: relative;
+}
+.sec2-carousel .owl-nav button.owl-prev, .sec2-carousel .owl-nav button.owl-next {
+	position: absolute;
+    font-size: 20px;
+    font-weight: 800;
+    top: 33%;
+    color: #e48000;
+}
+.sec2-carousel .owl-prev {
+    left: 20px;
+}
+.sec2-carousel .owl-next {
+    right: 20px;
+}
 .sec2-carousel .border {
+	margin: 5px 0;
 	border-radius: 100%;
 	background-color: #fff;
 	padding: 5px;
 	display: inline-block;
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
 }
 .sec2-carousel .img-slider .sec2-carousel-img {
 	height: 80px;
