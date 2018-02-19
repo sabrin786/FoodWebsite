@@ -112,6 +112,10 @@ box-shadow: 0px 3px 39px -8px rgba(0,0,0,0.75);
 
 /*section1*/
 
+.sec1{
+	background-image: url(image/sec1-bg.jpeg);
+	background-size: cover;
+}
 .sec1-left-img{
 	height: 120px;
 	width: 120px;
@@ -119,12 +123,13 @@ box-shadow: 0px 3px 39px -8px rgba(0,0,0,0.75);
 }
 .sec1-left-quote p{
 	font-size: 20px;
-	color: red;
-	display: inline-block;
+	color: #bb231bf5;
+	display: block;
+	font-style: italic;
 }
 .sec1-left-quote i{
-	color: gray;
-	display: inline;
+	color: #8080806b;
+	display: block;
 }
 .sec1-right-img{
 	width: 100%;
@@ -139,13 +144,13 @@ box-shadow: 0px 3px 39px -8px rgba(0,0,0,0.75);
 }
 .sec1 h4{
 	font-size: 16px;
-	color: red;
+	color: #bb231bf5;
 }
 .sec1 p{
 	font-family: 'Archivo Narrow', sans-serif;
 	font-size: 20px;
-	margin-top: 30px;
 	letter-spacing: 1px;
+	margin: 0;
 }
 .sec1 h6{
 	font-size: 30px;
@@ -154,8 +159,10 @@ box-shadow: 0px 3px 39px -8px rgba(0,0,0,0.75);
 	margin-bottom: 20px;
 }
 .sec1 h5{
-	border-top: 1px solid gray;
-	border-bottom: 1px solid gray;
+	border-top: 1px solid #8080806b;
+	border-bottom: 1px solid #8080806b;
+	padding: 10px 0 10px 0;
+	color: #524f4fcf;
 }
 
 
@@ -238,4 +245,11 @@ box-shadow: 0px 3px 39px -8px rgba(0,0,0,0.75);
 }
 .sec2 p{
 	font-size: 13px;
+}
+
+
+/*section-3*/
+
+.sec3{
+	background-image: url("image/sec3.jpg");
 }
