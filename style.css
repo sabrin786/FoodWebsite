@@ -31,6 +31,11 @@ box-shadow: 0px 3px 39px -8px rgba(0,0,0,0.75);
 	font-size: 14px;
 	font-weight: 500;
 }
+@media(max-width: 992px) {
+	.nav-divider{
+	display: none;
+  }
+}
 .custom-navbar .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
 	color: #fff;
 	border: .5px solid #8a8686;
@@ -45,8 +50,7 @@ box-shadow: 0px 3px 39px -8px rgba(0,0,0,0.75);
     color: #fff;
     vertical-align: middle;
     padding: 18px;
-}
-
+ }
 .social-icon {
 	margin-top: 20px;
 }
@@ -125,6 +129,9 @@ box-shadow: 0px 3px 39px -8px rgba(0,0,0,0.75);
 	height: 120px;
 	width: 120px;
 	border-radius: 100px;
+	border: 10px solid #fff;
+    outline: 10px solid #c1bfbf;
+    i
 }
 .sec1-left-quote p{
 	font-size: 20px;
@@ -429,17 +436,25 @@ box-shadow: 0px 3px 39px -8px rgba(0,0,0,0.75);
 }
 .footer-content{
 	text-decoration: none;
+	padding: 10px 20px;
 }
 .footer-content ul li a{
 	color: #fff;
-	padding: 10px 20px;
+	padding: 5px 10px;
+	font-size: 12px;
+	font-weight: 500;
 }
-.footer-content a:hover{
+.footer-content ul li a:hover{
 	text-decoration: none;
-	color: green;
+	color: #fff;
+	border: 1px solid #9e4e3d;
+	background-color: #80463957;
 }
 .footer-content ul{
 	list-style: none;
+	padding: 0;
+	border:2px dashed #eca263;
+	background-color: #82362426;
 }
 .footer-content ul li{
 	display: inline-block;
