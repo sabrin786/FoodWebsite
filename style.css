@@ -106,7 +106,7 @@
 	content: ""; 
 	display: block; 
 	margin: 0 auto; 
-	width: 20%; 
+	width: 20%;
 	padding: 15px 0; 
 	border-bottom: 1.5px solid #efd1a5fc;
 }
@@ -284,6 +284,11 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+@media(min-width: 992px) {
+	.sec3-overlay{
+		padding-bottom: 50px;
+	}
+}
 .sec3 .sec3-left h4{
 	font-family: 'Alegreya', serif;
 	font-size: 30px;
@@ -353,7 +358,7 @@
 	background-image: url('image/white_wall.png');
 }
 .sec4-top-img{
-	width: 100%;
+	width: 30%;
 }
 .sec4-left-img{
 	height: 80px;
