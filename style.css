@@ -505,10 +505,8 @@
 }
 .footer-content ul li a:hover{
 	text-decoration: none;
-	color: #fff;
-	/*border: 1px solid #9e4e3d;*/
-	background-color: #80463957;
-	padding: 10px 15px 12px 10px;
+	color: #efd1a5fc;
+	/*background-color: #80463957;*/
 }
 .footer-content ul{
 	list-style: none;
