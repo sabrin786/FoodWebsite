@@ -337,10 +337,22 @@
 	border: 3px #a9a5a5 solid;
 	padding: 5px;
 }
-.sec3-right{
+.sec3-right {
+	background-color: #ece6e6;
+	padding: 20px;
+	height: 600px;
+	margin-top: 20px;
+}
+@media (min-width: 992px) {
+	.sec3-right {
+		height: 100%;
+		margin-top: 0;
+	}
+}
+/*.sec3-right{
 	border: 1px dashed #c1bfbf;
 	outline: 13px solid #ece6e6;
-}
+}*/
 .sec3-right-bottom h2{
 	color: #000;
 	font-size: 35px;
@@ -423,10 +435,6 @@
 .sec4-left-bottom a:hover{
 	text-decoration: none;
 	background-color: #d6a53878;
-}
-.sec4-right-bottom{
-	/*border-top: 1px solid #dcd5d5;*/
-	padding: 40px;
 }
 
 .dotted-border {
